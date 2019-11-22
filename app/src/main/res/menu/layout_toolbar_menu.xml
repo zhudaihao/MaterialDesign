@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"  >
+
+    <item
+        android:id="@+id/i1"
+        android:icon="@mipmap/back"
+        android:orderInCategory="100"
+        android:title="测试1"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/i2"
+        android:icon="@mipmap/icon"
+        android:title="测试2"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/i3"
+        android:icon="@mipmap/ic_launcher"
+        android:title="测试3"
+        app:showAsAction="collapseActionView" />
+
+
+    <item
+        android:id="@+id/i4"
+        android:icon="@mipmap/ic_launcher"
+        android:title="测试4"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/i5"
+        android:icon="@mipmap/ic_launcher"
+        android:title="测试5"
+        app:showAsAction="withText" />
+
+
+</menu>
